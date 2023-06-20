@@ -10,12 +10,19 @@
   },
   "dependencies": {
     "autoprefixer": "10.4.14",
+    "axios": "^1.4.0",
     "eslint": "8.39.0",
     "eslint-config-next": "13.3.4",
+    "js-sha512": "^0.8.0",
+    "jssha": "^3.3.0",
     "next": "13.3.4",
+    "nextjs-cors": "^2.1.2",
+    "payu-sdk": "^1.1.1",
+    "payumoney": "^1.0.1",
     "postcss": "8.4.23",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "tailwindcss": "3.3.2"
+    "tailwindcss": "3.3.2",
+    "xhr": "^2.6.0"
   }
 }
