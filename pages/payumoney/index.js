@@ -21,7 +21,7 @@ export default function PayUMoneyForm() {
 
       document.querySelector('#firstname').value=firstname
       document.querySelector('#lastname').value=lastname
-      document.querySelector('#key').value="4atF5OxL"
+      document.querySelector('#key').value=process.env.MERCHANT_ID 
       document.querySelector('#txnid').value=response.data.txnid
       document.querySelector('#productinfo').value="iPhone"
       document.querySelector('#amount').value=amount
